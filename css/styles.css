@@ -74,7 +74,7 @@ body{
    font-size: 56px;
    line-height: 1.07;
    letter-spacing: 0.02em;
-   text-align: center;
+   
    color: #fff;
  }
 
@@ -125,6 +125,16 @@ body{
       color: #434455;
 }
 
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   overflow: hidden;
+}
 
 
 /* -------- FEATURES --------*/
@@ -136,11 +146,11 @@ body{
 }
 
 .team-title {
-   font-weight: 700;
+      font-weight: 700;
       font-size: 36px;
       line-height: 1.11;
       letter-spacing: 0.02em;
-      text-align: center;
+      
       color: #2e2f42;
       text-transform: capitalize;
 }
@@ -159,7 +169,6 @@ body{
       font-size: 20px;
       line-height: 1.2;
       letter-spacing: 0.02em;
-      text-align: center;
       color: #2e2f42;
 }
 
@@ -169,7 +178,6 @@ body{
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
-      text-align: center;
       color: #434455;
 }
 
@@ -188,7 +196,6 @@ font-weight: 700;
    font-size: 36px;
    line-height: 1.11;
    letter-spacing: 0.02em;
-   text-align: center;
    color: #2e2f42;
    text-transform: capitalize;
 }
