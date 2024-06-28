@@ -62,7 +62,6 @@ body{
 
 /* --------HEADER --------*/
 
-
 /* --------HERO --------*/
 
 
@@ -84,9 +83,16 @@ background-color: #2e2f42;
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.04em;
-      color: #fff;
+      background: #4d5ae5;
+      cursor: pointer;
  }
 
+
+
+ .hero-btn:hover,
+ .hero-btn:focus {
+   background-color: #404BBF
+ }
 /* --------HERO --------*/
 
 
@@ -139,16 +145,17 @@ background-color: #2e2f42;
 .team-title {
    font-weight: 700;
       font-size: 36px;
-      line-height: 1.12;
+      line-height: 1.11;
       letter-spacing: 0.02em;
       text-align: center;
       color: #2e2f42;
+      text-transform: capitalize;
 }
 
 .team-list {}
 
 
-.team-item {}
+.team-item {background: #fff;}
 
 
 .team-image {}
@@ -186,10 +193,11 @@ background-color: #2e2f42;
 .portfolio-title {
 font-weight: 700;
    font-size: 36px;
-   line-height: 1.12;
+   line-height: 1.11;
    letter-spacing: 0.02em;
    text-align: center;
    color: #2e2f42;
+   text-transform: capitalize;
 }
 
 .portfolio-list {}
