@@ -87,7 +87,9 @@ background-color: #2e2f42;
       cursor: pointer;
  }
 
-
+.hero-btn{
+   color: #ffffff
+}
 
  .hero-btn:hover,
  .hero-btn:focus {
